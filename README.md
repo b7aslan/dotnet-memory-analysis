@@ -1,5 +1,20 @@
-# .NET Memory Analysis
+# .NET Memory Profiling Examples
 
-This repository contains a series of examples and benchmarks that explore memory usage in .NET applications. Each scenario demonstrates how different coding patterns (e.g., using `string` vs `StringBuilder`, object allocation strategies, collection usage, etc.) affect memory consumption and garbage collection behavior.
+This repository contains practical examples for analyzing memory usage in .NET applications.
 
-The goal is to provide educational samples that help developers write more memory-efficient .NET code using tools like JetBrains dotMemory, Visual Studio Profiler, and other profiling utilities.
+## 🔬 Contents
+
+- `String vs StringBuilder` memory usage
+- (Coming soon) `List vs LinkedList`
+- (Coming soon) Boxing and unboxing impact
+- (Coming soon) Large object heap (LOH) behavior
+
+## 🛠 Tools
+
+- JetBrains dotMemory
+- Visual Studio Diagnostic Tools
+- BenchmarkDotNet (planned)
+
+## 💡 Goal
+
+To help developers understand how memory is allocated, retained, and optimized in .NET applications through real, measurable experiments.
